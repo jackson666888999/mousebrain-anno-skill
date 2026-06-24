@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+.mypy_cache/
+.ruff_cache/
+
+# Data files — never commit large matrices
+data/*.h5ad
+data/*.h5
+data/*.hdf5
+*.h5ad
+*.h5
+data/references/
+data/raw/
+
+# Environments
+.env
+.venv
+venv/
+env/
+.python-version
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Benchmark results
+benchmark_results/
+*.benchmark_report.html
+
+# Test outputs
+test_outputs/
+.pytest_cache/
+coverage/
+htmlcov/

@@ -1,0 +1,116 @@
+# Mouse Brain Annotation — Reference Data Sources
+# All data is publicly available. This file records download info, licenses, and citations.
+# Do NOT bundle raw data. Users download via included scripts.
+# Last updated: 2026-06-24
+
+references:
+
+  - id: allen_consensus_wmb_20251031
+    name: "Allen Consensus Whole Mouse Brain integrated taxonomy"
+    modality: "scRNA-seq + snRNA-seq"
+    description: >
+      Integrative consensus taxonomy across scRNA-seq and snRNA-seq WMB datasets,
+      released by Allen Institute, 2025-10-31.
+    source_url: "https://alleninstitute.github.io/abc_atlas_access/descriptions/Consensus-WMB-taxonomy.html"
+    data_path: "s3://allen-brain-cell-atlas/metadata/Consensus-WMB-integrated-taxonomy/20251031/"
+    citation: >
+      Yao, Z. et al. A high-resolution transcriptomic and spatial atlas of cell types
+      in the whole mouse brain. Nature 624, 317-332 (2023).
+      https://doi.org/10.1038/s41586-023-06812-z
+    doi: "10.1038/s41586-023-06812-z"
+    license: "CC-BY-4.0"
+    license_url: "https://creativecommons.org/licenses/by/4.0/"
+    use_policy: "download-by-script; do not redistribute raw data"
+
+  - id: wmb_nature_2023
+    name: "Allen/BICCN WMB transcriptomic + spatial atlas (Nature 2023)"
+    modality: "scRNA-seq + MERFISH spatial"
+    description: >
+      ~7M scRNA-seq profiles, ~4M QC-passed cells, integrated with MERFISH spatial data.
+      Primary reference paper for WMB taxonomy.
+    source_url: "https://www.nature.com/articles/s41586-023-06812-z"
+    data_path: "s3://allen-brain-cell-atlas/releases/20231215/"
+    citation: >
+      Yao, Z. et al. Nature 624, 317-332 (2023).
+    doi: "10.1038/s41586-023-06812-z"
+    license: "CC-BY-4.0"
+    license_url: "https://creativecommons.org/licenses/by/4.0/"
+    use_policy: "download-by-script; do not redistribute raw data"
+
+  - id: merfish_wmb_nature_2023
+    name: "MERFISH whole mouse brain atlas (Nature 2023)"
+    modality: "MERFISH spatial"
+    description: >
+      ~10M cells, >1,100 genes. Spatial validation reference for cell type
+      annotations across mouse brain regions.
+    source_url: "https://www.nature.com/articles/s41586-023-06808-9"
+    citation: >
+      Zhang, M. et al. Molecularly defined and spatially resolved cell atlas of
+      the whole mouse brain. Nature 624, 343-354 (2023).
+    doi: "10.1038/s41586-023-06808-9"
+    license: "CC-BY-4.0"
+    license_url: "https://creativecommons.org/licenses/by/4.0/"
+    use_policy: "download-by-script; do not redistribute raw data"
+
+  - id: slideseq_nature_2023
+    name: "Slide-seq/snRNA mouse brain cytoarchitecture (Nature 2023)"
+    modality: "Slide-seq spatial + snRNA-seq"
+    description: >
+      Whole-brain structural spatial transcriptomics reference.
+    source_url: "https://www.nature.com/articles/s41586-023-06818-7"
+    citation: >
+      Liu, H. et al. Nature (2023).
+    doi: "10.1038/s41586-023-06818-7"
+    license: "CC-BY-4.0"
+    license_url: "https://creativecommons.org/licenses/by/4.0/"
+    use_policy: "download-by-script; do not redistribute raw data"
+
+  - id: starmap_plus_nature_2023
+    name: "STARmap PLUS CNS atlas (Nature 2023)"
+    modality: "STARmap spatial + scRNA-seq"
+    description: >
+      1,022 genes, ~1.09M high-quality cells, covering brain and spinal cord.
+    source_url: "https://www.nature.com/articles/s41586-023-06569-5"
+    citation: >
+      Shi, H. et al. Nature (2023).
+    doi: "10.1038/s41586-023-06569-5"
+    license: "CC-BY-NC-4.0"
+    license_url: "https://creativecommons.org/licenses/by-nc/4.0/"
+    use_policy: "download-by-script; non-commercial use only"
+
+  - id: mapmycells
+    name: "MapMyCells — Allen/BRAIN Initiative official mapping tool"
+    modality: "computation"
+    description: >
+      Official Allen/BRAIN Initiative tool for mapping user expression matrices
+      to Allen/BICAN taxonomies.
+    source_url: "https://www.braininitiative.org/toolmakers/resources/mapmycells/"
+    license: "Service terms apply"
+    use_policy: "Use via API; output labels can be used with attribution"
+
+tools:
+  - id: celltypist
+    name: "CellTypist"
+    description: "Fast logistic-regression-based cell type prediction"
+    url: "https://www.celltypist.org/"
+    citation: "Dominguez Conde, C. et al. Science (2022)"
+  - id: scvi_tools
+    name: "scVI / scANVI / scArches"
+    description: "Batch-aware deep generative models for integration and annotation"
+    url: "https://scvi-tools.org/"
+    citation: "Lopez, R. et al. Nature Methods (2018); Gayoso, A. et al. Nature Methods (2021)"
+  - id: singler
+    name: "SingleR"
+    description: "Reference-based correlation annotation"
+    url: "https://www.bioconductor.org/packages/SingleR/"
+    citation: "Aran, D. et al. Nature Immunology (2019)"
+  - id: scgpt
+    name: "scGPT"
+    description: "Single-cell foundation model (Nature Methods 2024)"
+    url: "https://github.com/bowang-lab/scGPT"
+    citation: "Cui, H. et al. Nature Methods (2024)"
+  - id: sctype
+    name: "ScType"
+    description: "Marker-combination automated annotation"
+    url: "https://github.com/IanevskiAleksandr/sc-type"
+    citation: "Ianevski, A. et al. Nature Communications (2022)"

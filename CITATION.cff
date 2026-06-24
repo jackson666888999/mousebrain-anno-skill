@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use mbanno in your research, please cite the software and the underlying reference datasets."
+title: "mousebrain-anno-skill (mbanno)"
+authors:
+  - family-names: "Huang"
+    given-names: "Yanling"
+    affiliation: "Zhejiang University"
+repository-code: "https://github.com/jackson666888999/mousebrain-anno-skill"
+license: MIT
+version: 0.1.0
+date-released: 2026-06-24
+keywords:
+  - single-cell
+  - transcriptomics
+  - mouse-brain
+  - annotation
+  - Allen-Brain-Atlas
+  - BICCN
+abstract: >
+  A reproducible consensus annotation framework for mouse whole-brain
+  single-cell and spatial transcriptomics using Allen/BICCN reference
+  taxonomies.
+
+references:
+  - title: "A high-resolution transcriptomic and spatial atlas of cell types in the whole mouse brain"
+    authors:
+      - family-names: Yao
+        given-names: Zizhen
+    year: 2023
+    journal: Nature
+    volume: 624
+    pages: 317-332
+    doi: 10.1038/s41586-023-06812-z
+
+  - title: "Molecularly defined and spatially resolved cell atlas of the whole mouse brain"
+    authors:
+      - family-names: Zhang
+        given-names: Meng
+    year: 2023
+    journal: Nature
+    volume: 624
+    pages: 343-354
+    doi: 10.1038/s41586-023-06808-9

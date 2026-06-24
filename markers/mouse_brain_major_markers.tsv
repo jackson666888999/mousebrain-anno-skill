@@ -1,0 +1,25 @@
+# Mouse Brain Major Marker Genes
+# Sourced from: Allen WMB Atlas (Nature 2023) and published literature
+# License: CC-BY-4.0 (Allen data) / Public domain (literature)
+# NOT copied from paper tables — script-derived from public data
+
+category	cell_type	marker_genes	source	citation
+neuron	glutamatergic	Slc17a7,Slc17a6,Camk2a,Neurod6	Allen WMB Atlas 2023	Yao et al. Nature 2023
+neuron	GABAergic	Gad1,Gad2,Slc32a1	Allen WMB Atlas 2023	Yao et al. Nature 2023
+neuron	cortical_IT	Satb2,Cux1,Cux2	Allen WMB Atlas 2023	Yao et al. Nature 2023
+neuron	cortical_ET	Fezf2,Bcl11b,Foxp2	Allen WMB Atlas 2023	Yao et al. Nature 2023
+neuron	cortical_CT	Tle4,Foxp2	Allen WMB Atlas 2023	Yao et al. Nature 2023
+neuron	MSN_D1	Drd1,Tac1,Ppp1r1b	Allen WMB Atlas 2023	Yao et al. Nature 2023
+neuron	MSN_D2	Drd2,Adora2a,Penk	Allen WMB Atlas 2023	Yao et al. Nature 2023
+neuron	cholinergic	Chat,Slc5a7	Literature	Multiple
+neuron	dopaminergic	Th,Slc6a3,Ddc	Literature	Multiple
+neuron	serotonergic	Tph2,Slc6a4	Literature	Multiple
+glia	astrocyte	Aqp4,Aldh1l1,Slc1a3,Gfap	Allen WMB Atlas 2023	Yao et al. Nature 2023
+glia	OPC	Pdgfra,Cspg4,Sox10	Allen WMB Atlas 2023	Yao et al. Nature 2023
+glia	oligodendrocyte	Mbp,Plp1,Mog,Mag	Allen WMB Atlas 2023	Yao et al. Nature 2023
+glia	microglia	P2ry12,Tmem119,Cx3cr1,Csf1r	Allen WMB Atlas 2023	Yao et al. Nature 2023
+vascular	endothelial	Cldn5,Pecam1,Flt1,Kdr	Allen WMB Atlas 2023	Yao et al. Nature 2023
+vascular	pericyte	Pdgfrb,Rgs5	Allen WMB Atlas 2023	Yao et al. Nature 2023
+vascular	smooth_muscle	Acta2,Tagln	Literature	Multiple
+other	ependymal	Foxj1	Literature	Multiple
+other	choroid_plexus	Ttr,Krt8,Krt18	Literature	Multiple
