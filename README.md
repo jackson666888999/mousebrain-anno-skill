@@ -1,4 +1,4 @@
-# 🧠 mbanno — 小鼠全脑 Consensus 注释器
+# 🧠 mbanno — 小鼠全脑单细胞注释.skill
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
